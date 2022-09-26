@@ -17,4 +17,6 @@ RUN git clone https://github.com/NarendraGodi/pod.git
 # switch working directory
 WORKDIR /pod
 
-ENTRYPOINT FLASK_APP=/pod/main.py --host=0.0.0.0
+ENTRYPOINT FLASK_APP=/pod/main.py flask run --host=0.0.0.0 --port=8080
+
+CMD tail -f /dev/null
