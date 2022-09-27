@@ -9,3 +9,7 @@
    pod we are interacting with.
    
   - We can use this image while testing load balancing.
+```bash
+# Docker Image
+narendragodi/pod_hostname:latest 
+  ```
